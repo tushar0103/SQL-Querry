@@ -1,0 +1,24 @@
+CREATE TABLE Student (
+    StudentId INTEGER CONSTRAINT Stud_SId_nn NOT NULL,
+    FName VARCHAR2(10) NOT NULL,
+    LName VARCHAR2(10));
+    
+    
+    
+    
+    CREATE TABLE Student ( 
+    StudentId INTEGER CONSTRAINT stud_sid_pk PRIMARY KEY,
+    FName VARCHAR2(10), 
+    ContactNo NUMBER(10));
+    
+    
+    CREATE TABLE Student ( 
+    StudentId INTEGER, 
+    FName VARCHAR2(10), 
+    Gender CHAR(1) CONSTRAINT Stud_gender_ck1 CHECK(Gender IN('M', 'F'))); 
+    
+    
+    CREATE TABLE Student ( 
+    StudentId INTEGER, 
+    FName VARCHAR2(10), 
+    ContactNo NUMBER(10) CONSTRAINT Stud_cno_uk UNIQUE);
