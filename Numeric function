@@ -1,0 +1,3 @@
+//Ceil,floor, ABS
+
+SELECT City, MinTemp, CEIL(MinTemp) AS "Ceiling", FLOOR(MinTemp) AS "Floor", ABS(MinTemp) as "Absolute"  FROM Weather;
