@@ -1,0 +1,11 @@
+//Aggregate without group by
+
+SELECT Count(ID) FROM Employee;
+
+//group by single column
+
+SELECT Dept, Count(ID) FROM Employee GROUP BY Dept;
+
+//group by multiple columns
+
+SELECT Dept, Designation, MAX(Salary) FROM Employee GROUP BY Dept, Designation;
