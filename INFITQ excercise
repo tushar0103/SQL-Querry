@@ -1,0 +1,12 @@
+//EXcercise 2
+
+create table Tournament(
+Tid integer constraint tour_tid_pk primary key,
+TName varchar2(30) constraint Tour_Tna_nn not null,
+StartDt date constraint Tour_start_nn not null,
+EndDt date constraint Tour_End_nn not null,
+Prize integer constraint tour_priz_nn not null
+);
+
+//Excercise 9
+Alter table Player modify PName varchar2(50);
