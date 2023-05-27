@@ -1,0 +1,7 @@
+// Assignment 5
+
+create table Store(
+Name varchar2(20) constraint sto_name_pk primary key,
+Location varchar2(30) constraint sto_loc_nn not null,
+ManagerName varchar2(30) constraint sto_man_un unique
+);
