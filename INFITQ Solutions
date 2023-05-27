@@ -1,0 +1,11 @@
+// Excercise 7
+
+select prodid, pdesc, category , discount from product where Category= 'Apparel'
+
+// Excerxise 8
+
+select prodid, pdesc, category, discount from product where pdesc is NULL
+
+excercise 9
+
+select prodid, pdesc, category, discount from product where category= 'Apparel' AND Discount>=10
