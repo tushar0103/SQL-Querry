@@ -1,0 +1,7 @@
+CREATE TABLE Tournament (
+Tid INTEGER constraint tid_ti_pk PRIMARY KEY,
+Tname varchar2(30) NOT NULL,
+StartDt DATE NOT NULL,
+EndDt DATE NOT NULL,
+Prize INTEGER NOT NULL
+);
