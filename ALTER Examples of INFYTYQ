@@ -4,7 +4,7 @@ ALTER TABLE PLAYER MODIFY PName VARCHAR2(50);
 
 EXERCISE 10
   
-INSERT INTO Salesman(Sid, Sname, Location) VALUES(11,'Elizabeth','London');
+INSERT INTO Salesman(Sid, Sname, Location) VALUES(11,'Elizabeth','London');        
 
 EXERCISE 11
 
