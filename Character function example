@@ -3,5 +3,5 @@ SELECT City, LENGTH(City) "LENGTH",  LOWER(City) "LOWERCASE", UPPER(City) "UPPER
 
 // Concatenating string example
 
-
+   
 SELECT City, Country, CONCAT(City, Country) "CONCAT", City || Country "ConcatByOperator", CONCAT(CONCAT(City, ', '), Country) "NestedConcat" FROM Weather;
